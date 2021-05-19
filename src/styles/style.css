@@ -24,6 +24,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -32,6 +36,23 @@ body{
     font-family: mon-Light;
     font-size: 22px;
     min-width: 800px;
+}
+
+footer{
+    background-color: #EFEFEF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer>div{
+    margin: 10px;
+}
+
+footer>div>a{
+    text-decoration: underline;
+    color: black;
 }
 
 nav{
@@ -47,6 +68,11 @@ ul{
 
 li{
     margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black
 }
 
 .logo{
@@ -77,10 +103,11 @@ li{
     height: 10px;
 }
 
-.navMenu span{
+.navMenu a{
     font-family: mon-Regular;
     font-size: 15px;
     margin-left: 5px;
+
 }
 
 .theme{
@@ -271,4 +298,12 @@ main{
     .LumBulbInfo .mainInfo > p{
         height: 200px;
     }
+}
+
+.diod{
+    background-image: url(../../static/images/diod.jpg);
+}
+
+#diodImg{
+    height: 220px;
 }

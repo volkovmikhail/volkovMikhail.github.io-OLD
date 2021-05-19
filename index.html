@@ -1,103 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles/style.css" type="text/css">
-    <title>Document</title>
-</head>
-<body>
-    <nav>
-        <div class="logo">
-            <h1 >Лампочки</h1>
-        </div>
-        <div class="navMenu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="src/styles/style.css" type="text/css" />
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+        <title>Лампочки</title>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <h1>Лампочки</h1>
+            </div>
+            <div class="navMenu">
+                <div>
+                    <img src="static/images/Polygon.png" alt="" />
+                    <a href="#oldBulb">Лампы накаливания</a>
+                </div>
+                <div>
+                    <img src="static/images/Polygon.png" alt="" />
+                    <a href="#lumBulb">Люминесцентные лампы</a>
+                </div>
+                <div>
+                    <img src="static/images/Polygon.png" alt="" />
+                    <a href="">Светодиодные лампы</a>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="theme">
+                <h1>
+                    Сейчас мы разберёмся<br />
+                    какая лампочка самая экономная
+                </h1>
+            </div>
+            <div class="oldBulb">
+                <a name="oldBulb">
+                    <h1>Лампы накаливания</h1>
+                </a>
+                <div class="parallax"></div>
+            </div>
+            <div class="BulbInfo">
+                <div class="mainInfo">
+                    <img src="static/images/n1.jpg" class="zoom" alt="" />
+                    <p>
+                        Лампа накаливания — искусственный источник света, в
+                        котором свет испускает тело накала, нагреваемое
+                        электрическим током до высокой температуры. В качестве
+                        тела накала чаще всего используется спираль из вольфрама
+                        либо угольная нить.
+                    </p>
+                </div>
+                <div class="plusesMinuses">
+                    <p>Преимущества:</p>
+                    <ul>
+                        <li>Низкая цена</li>
+                        <li>Приятный и привычный в быту спектр</li>
+                    </ul>
+                    <p>Недостатки:</p>
+                    <ul>
+                        <li>Малый срок службы всего 2000 часов.</li>
+                        <li>
+                            Световой коэффициент полезного действия весьма мал и
+                            не превышает 4 %.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="LumBulb">
+                <a name="lumBulb"><h1>Люминесцентные лампы</h1></a>
+                <div class="lum parallax"></div>
+            </div>
+            <div class="LumBulbInfo">
+                <div class="mainInfo">
+                    <p>
+                        Люминесцентная лампа — газоразрядный источник света, в
+                        котором электрический разряд в парах ртути генерирует
+                        ультрафиолетовое излучение, которое переизлучается в
+                        видимый свет с помощью люминофора
+                    </p>
+                    <img src="static/images/lum.jpg" class="zoom" alt="" />
+                </div>
+                <div class="plusesMinuses">
+                    <p>Преимущества:</p>
+                    <ul>
+                        <li>
+                            Энергопотребление снижено на 60-70 % по сравнению с
+                            лампами накаливания.
+                        </li>
+                        <li>
+                            Долгий срок службы. Средний срок службы
+                            люминесцентных ламп составляет 10000 — 12000 часов.
+                        </li>
+                    </ul>
+                    <p>Недостатки:</p>
+                    <ul>
+                        <li>Чувствительность к перепадам напряжения.</li>
+                        <li>Пары ртути опасные для здоровья.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="LumBulb">
+              <a name="lumBulb"><h1>Светодиодные <br> лампы</h1></a>
+              <div class="diod parallax"></div>
+            </div>
+            <div class="BulbInfo">
+              <div class="mainInfo">
+                  <img src="static/images/d1.jpg" class="zoom" id="diodImg" alt="" />
+                  <p>
+                    Светодиод — полупроводниковый прибор с электронно-дырочным переходом, создающий оптическое излучение при пропускании через него электрического тока в прямом направлении.
+                  </p>
+              </div>
+              <div class="plusesMinuses">
+                  <p>Преимущества:</p>
+                  <ul>
+                      <li>Светодиоды в 9 раз экономичнее ламп накаливания.</li>
+                      <li>Долговечность. Светодиодные модели способны прослужить своему хозяину от 30 000 до 50 000 часов.</li>
+                  </ul>
+                  <p>Недостатки:</p>
+                  <ul>
+                      <li>Высокая стоимость. В среднем светодиодные модели стоят в 8 раз дороже ламп накаливания.
+                       </li>
+                      <li>
+                        Выгорание светодиодов.
+                        Светодиод имеет свойство выгорать (деградировать) и постепенно терять свою яркость. За 3 — 5 лет светодиод теряет до 10 % яркости. 
+                      </li>
+                  </ul>
+              </div>
+          </div>
+        </main>
+        <footer>
+            <div>Дизайн сделал <a href="">Михаил Волков</a></div>
             <div>
-                <img src="static/images/Polygon.png" alt="">
-                <span>Лампы накаливания</span>
+                <a href="">Github</a>
             </div>
             <div>
-                <img src="static/images/Polygon.png" alt="">
-                <span>Люминесцентные лампы</span>
+                Icons made by
+                <a
+                    href="https://www.flaticon.com/authors/vectors-market"
+                    title="Vectors Market"
+                    >Vectors Market</a
+                >
+                from
+                <a href="https://www.flaticon.com/" title="Flaticon"
+                    >www.flaticon.com</a
+                >
             </div>
-            <div>
-                <img src="static/images/Polygon.png" alt="">
-                <span>Светодиодные лампы</span>
-            </div>
-        </div>
-    </nav>
-    <Main>
-        <div class="theme">
-            <h1>
-                Сейчас мы разберёмся<br>
-                какая лампочка самая экономная
-            </h1>
-        </div>
-        <div class="oldBulb">
-            <h1>Лампы накаливания</h1>
-            <div class="parallax">
-            </div>
-        </div>
-        <div class="BulbInfo">
-            <div class="mainInfo">
-                <img src="static/images/n1.jpg" class="zoom" alt="">
-                <p>
-                    Лампа накаливания — искусственный источник света,
-                    в котором свет испускает тело накала, нагреваемое 
-                    электрическим током до высокой температуры. 
-                    В качестве тела накала чаще всего используется 
-                    спираль из вольфрама либо угольная нить. 
-                </p>
-            </div>
-            <div class="plusesMinuses">
-                <p>
-                    Преимущества:
-                </p>
-                <ul>
-                    <li>Низкая цена</li>
-                    <li>Приятный и привычный в быту спектр  </li>
-                </ul>
-                <p>Недостатки:</p>
-                <ul>
-                    <li>Малый срок службы всего 2000 часов.</li>
-                    <li>Световой коэффициент полезного действия весьма мал и не превышает 4 %.  </li>
-                </ul>
-            </div>
-        </div>
-        <div class="LumBulb">
-            <h1>Люминесцентные лампы</h1>
-            <div class="lum parallax"></div>
-        </div>
-        <div class="LumBulbInfo">
-            <div class="mainInfo">
-                <p>
-                    Люминесцентная лампа — газоразрядный источник света,
-                     в котором электрический разряд в парах ртути генерирует
-                      ультрафиолетовое излучение, которое переизлучается в видимый
-                       свет с помощью люминофора
-                </p>
-                <img src="static/images/lum.jpg" class="zoom" alt="">
-            </div>
-            <div class="plusesMinuses">
-                <p>
-                    Преимущества:
-                </p>
-                <ul>
-                    <li>Энергопотребление снижено на 60-70 %
-                        по сравнению с лампами накаливания.</li>
-                    <li>Долгий срок службы. 
-                        Средний срок службы люминесцентных ламп составляет
-                         10000 — 12000 часов.</li>
-                </ul>
-                <p>Недостатки:</p>
-                <ul>
-                    <li>Малый срок службы всего 2000 часов.</li>
-                    <li>Световой коэффициент полезного действия весьма мал и не превышает 4 %.  </li>
-                </ul>
-            </div>
-        </div>
-    </Main>
-    <script src="src/js/script.js"></script>
-</body>
+        </footer>
+        <script src="src/js/script.js"></script>
+    </body>
 </html>

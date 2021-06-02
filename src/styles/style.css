@@ -283,7 +283,7 @@ main{
     margin: 25px 50px;
 }
 
-@media (max-width:1100px) {
+@media (max-width:800px) {
     nav{
         flex-direction: column;
         justify-content: space-evenly;
@@ -300,7 +300,7 @@ main{
     }
 }
 
-@media (min-width:1100px) {
+@media (min-width:800px) {
     nav{
         flex-direction: row;
         justify-content: space-evenly;
@@ -347,4 +347,12 @@ main{
     font-weight: 400;
     letter-spacing: 15px;
     font-size: 40px;
+}
+
+.difText{
+    margin: 50px;
+}
+
+.table-text{
+    font-size: 15px;
 }

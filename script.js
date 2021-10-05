@@ -1,1 +1,1 @@
-this.location.href = 'https://chatik-node.herokuapp.com'
+this.location.href = 'https://volkovmikhail.herokuapp.com/'

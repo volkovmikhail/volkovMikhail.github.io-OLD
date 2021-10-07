@@ -20,15 +20,19 @@ p {
     line-height: 1.4;
     max-width: 28em;
 }
+span {
+    font-size: 1.6em;
+    font-weight: 300;
+    line-height: 1.4;
+}
 a {
-    text-decoration: solid;
+    text-decoration:underline;
     color: #121314;
-    position: relative;
 }
 
 nav {
     display: flex;
-    height: 2rem;
+    height: 3rem;
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px #dadce0 solid;
@@ -48,8 +52,8 @@ main {
     padding-right: 1rem;
 }
 
-.avatar{
-    background-image: url('me.JPG');
+.avatar {
+    background-image: url("me.JPG");
     width: 35vh;
     height: 35vh;
     background-position: center;

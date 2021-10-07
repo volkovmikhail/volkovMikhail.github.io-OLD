@@ -1,1 +1,0 @@
-this.location.href = 'https://volkovmikhail.herokuapp.com/'

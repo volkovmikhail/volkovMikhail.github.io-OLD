@@ -26,13 +26,5 @@
     </nav>
     <main>1</main>
   </body>
-  <script>
-    fetch('https://meme-api.herokuapp.com/gimme')
-      .then((res) => {
-        return res.json();
-      })
-      .then((res) => {
-        document.getElementsByTagName('main')[0].innerHTML = `<img src=${res.url}>`;
-      });
-  </script>
+  <script src="./scripts/memes.js"></script>
 </html>

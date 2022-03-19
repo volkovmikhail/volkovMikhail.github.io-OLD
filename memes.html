@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Mikhail Volkov</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/">
+        <div class="navItem">
+          <span>about me</span>
+        </div>
+      </a>
+      <div class="navItem">
+        <span>memes</span>
+      </div>
+      <a href="/links.html">
+        <div class="navItem">
+          <span>links</span>
+        </div>
+      </a>
+    </nav>
+    <main>1</main>
+  </body>
+  <script>
+    fetch('https://meme-api.herokuapp.com/gimme')
+      .then((res) => {
+        return res.json();
+      })
+      .then((res) => {
+        document.getElementsByTagName('main')[0].innerHTML = `<img src=${res.url}>`;
+      });
+  </script>
+</html>

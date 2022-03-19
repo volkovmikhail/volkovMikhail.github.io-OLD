@@ -68,3 +68,10 @@ main {
   background-repeat: no-repeat;
   border-radius: 10%;
 }
+
+img {
+  width: 100%;
+  max-width: 470px;
+  margin: 1rem;
+  border: 1px #dadce0 solid;
+}

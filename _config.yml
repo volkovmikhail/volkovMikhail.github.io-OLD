@@ -31,9 +31,9 @@ navigation:
   - text: Главная
     url: /
   - text: Обо мне
-    url: /about/
+    url: /about
   - text: Архив
-    url: /archive/
+    url: /archive
 
 # Colors
 accent_color: '#2d72d9'

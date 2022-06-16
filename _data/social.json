@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "title": "GitHub",
+      "icon": "fa-github",
+      "url": "https://github.com/volkovMikhail"
+    },
+    {
+      "title": "Instagram",
+      "icon": "fa-instagram",
+      "url": "https://www.instagram.com/volkov.mishaa/"
+    },
+    {
+      "title": "LinkedIn",
+      "icon": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/volkov-m/"
+    }
+  ]
+}

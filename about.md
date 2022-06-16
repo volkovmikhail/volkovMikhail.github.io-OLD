@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Кто я?
-description: An optional about page for Scriptor Jekyll theme
+description: Я обычный парень...
 feature_image: images/me.jpg
 ---
 
